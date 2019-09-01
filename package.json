@@ -1,0 +1,29 @@
+{
+  "name": "@vlab-research/utils",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "mocha -w --colors lib/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlab-research/utils.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlab-research/utils/issues"
+  },
+  "homepage": "https://github.com/vlab-research/utils#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
+  "dependencies": {
+    "chrono-node": "^1.3.11"
+  }
+}
